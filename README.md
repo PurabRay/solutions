@@ -1,1 +1,4 @@
 # solutions
+solution1: open the app and then enter the number of fields and type of fields on the form given, the form will be generated and it has the remove functionality on its each individual input area.
+solution2: open the app and press add on the items you want to add to the cart the total bill and the total number of items will be displayed on the side
+solution3:open the app and then enter the task you want to add and press the button the task will be displayed in the list below to filter select the radio option of whether pending or completed tasks are wanted and it will filter accordingly.

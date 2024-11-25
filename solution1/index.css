@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
-.random{
+#random{
     display: flex;
     flex-direction: column;
     align-items: center;
