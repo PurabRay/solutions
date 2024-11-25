@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form Creator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="form-container">
+        <div id="random">
+        <label for="field-count">Number of fields:</label>
+        <input type="number" id="field-count" name="field-count" min="1" max="10" value="1">
+    </div>
+    <div id="random">
+        <label for="field-type">Select field type:</label>
+        <select id="field-type" name="field-type">
+            <option value="text">Text</option>
+            <option value="checkbox">Checkbox</option>
+            <option value="radio">Radio</option>
+            <option value="textarea">Textarea</option>
+        </select>
+    </div>
+    <div id="random">
+        <button id="generate-btn">Generate Form</button>
+        </div>
+    </div>
+
+    <div id="dynamic-form"></div>
+
+    <script src="index.js"></script>
+      
+</body>
+
+</html>
